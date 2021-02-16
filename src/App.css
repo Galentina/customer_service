@@ -1,38 +1,191 @@
 .App {
   text-align: center;
+  margin: auto;
+  font-style: normal;
+  padding: 20px 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+.buttonB {
+  width: 80px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+  background-color: #e6faff;
+  color: black;
+  margin: 5px 0 5px 0;
+}
+
+.buttonA {
+  width: 90px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+  background-color: #41afcf;
+  color: white;
+}
+#trHead{
+  background-color: #41afcf;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+
+td {
+  vertical-align: center;
+  font-weight: normal;
+  font-style: normal;
+}
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-style: normal;
+  padding: 10px;
+}
+tr{
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+#tr1{
+  background-color: #41afcf;
+  font-size: 15px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.td1 {
+  border: 0;
+  padding: 10px;
+}
+.td2{
+  width: 210px;
+  padding: 10px;
+}
+.windowOn {
+  display: block;
+  position: absolute;
+  top: 110px;
+  width: 300px;
+  height: 300px;
+  bottom: 150px;
+  right: 150px;
+  box-shadow: 1px 1px 1px darkgrey;
+  background-color: white;
+  border: 1px solid darkgrey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.windowOff {
+  display: none;
+}
+
+.table {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  font-style: normal;
+}
+.table tr:nth-child(even) {
+  background-color: #e6faff;
+}
+.table tr:nth-child(odd) {
+  background-color: #fff;
+}
+.thead {
+  background-color: #41afcf;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-style: normal;
+  border: 1px solid black;
+}
+
+.selectOn {
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+option{
+  margin: 10px;
+}
+
+.smallI {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+}
+
+.smallI60 {
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+}
+
+.smallN {
+  width: 150px;
+  height: 20px;
+  /*border-radius: 5px;*/
+  /*border: 1px solid black;*/
+  outline: none;
+  font-size: 12px;
+  padding-left: 50px;
+}
+
+.smallB {
+  width: 30px;
+  height: 21px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+}
+.on {
+
+}
+.off{
+  display: none;
+}
+
+.div_center {
+  text-align: center;
+  margin: 10px auto 0 auto;
+}
+
+div{
+  margin: 10px auto 10px auto;
+}
+.divIn {
+  display: inline-flex;
+}
+
+hr{
+  margin: 15px;
 }
